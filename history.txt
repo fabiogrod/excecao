@@ -995,3 +995,401 @@
   342  01/11/20 14:55:41 history 22
   343  01/11/20 14:56:06 history 25
   344  01/11/20 14:56:24 history >> history.txt
+    1  git
+    2  exit
+    3  git config --list
+    4  git config --global user.name "fabiogrod"
+    5  git config --global user.email "fabiogrimello@gmail.com"
+    6  git config --list
+    7  git init
+    8  git remote add origin https://github.com/fabiogrod/estudos
+    9  git remote remove origin https://github.com/fabiogrod/estudos
+   10  git remote remove https://github.com/fabiogrod/estudos
+   11  git 
+   12  git remote add origin https://github.com/fabiogrod/estudos.git
+   13  git status
+   14  git remote remove https://github.com/fabiogrod/estudos
+   15  git remote add origin https://github.com/fabiogrod/estudos.git
+   16  git init
+   17  git remote add origin https://github.com/fabiogrod/estudos.git
+   18  git init
+   19  git remote add origin https://github.com/fabiogrod/estudos.git
+   20  git pull origin master
+   21  git branch
+   22  git branch master
+   23  git branch -vv
+   24  git pull origin master
+   25  git init
+   26  git remote add origin https://github.com/fabiogrod/estudos.git
+   27  git pull origin master
+   28  git remote add origin https://github.com/fabiogrod/estudos.git
+   29  git pull origin master
+   30  git checkout -b master
+   31  git pull origin master
+   32  git pull origin master
+   33  git status
+   34  git config --list
+   35  git init
+   36  git remote add origin https://github.com/fabiogrod/estudos.git
+   37  git pull origin master
+   38  git ls-remote
+   39  git branch -a
+   40  git pull origin master
+   41  git branch -vv
+   42  git config user.name
+   43  git config user.email
+   44  git remote add origin https://github.com/fabiogrod/estudos.git
+   45  git remote add origin https://github.com/fabiogrod/estudos
+   46  git status
+   47  git remote -v
+   48  git push origin --delete
+   49  git push origin --delete estudos
+   50  git checkout master
+   51  git checkout estudos
+   52  git add TEST
+   53  git add TEST
+   54  git add TESTE
+   55  git commit -m 'Teste de envio'
+   56  git status
+   57  git add .
+   58  git commit -m 'Teste de add'
+   59  git status
+   60  git diff --staged
+   61  git diff
+   62  git remote show origin
+   63  git fetch origin
+   64  git push -u origin master
+   65  git push -u origin master
+   66  git push origin --delete master
+   67  git pull origin master main
+   68  git pull origin main
+   69  git status
+   70  git pull
+   71  git remove rm master
+   72  git remote rm master
+   73  git remot -v
+   74  git remote -v
+   75  git origin -v
+   76  git pull origin main
+   77  git init
+   78  git add remote add origin https://github.com/fabiogrod/estudos.git
+   79  git remote add origin https://github.com/fabiogrod/estudos.git
+   80  git pull origin main
+   81  git status
+   82  git add .
+   83  git commit "Primeiro envio completo"
+   84  git commit -m "Primeiro envio completo"
+   85  git push -u origin main
+   86  git pull origin main
+   87  git push origin main
+   88  git show-ref
+   89  git push origin HEAD
+   90  exit
+   91  git show-ref
+   92  git pull origin master
+   93  git branch master
+   94  git status
+   95  git add .
+   96  git commit - m "Segundo envio completo"
+   97  git commit -m "Segundo envio completo"
+   98  git push -u origin master
+   99  git config --list
+  100  git clone https://github.com/fabiogrod/estudos
+  101  git clone https://github.com/fabiogrod/estudos.git
+  102  show status
+  103  git show status
+  104  git status -s
+  105  git clone https://github.com/fabiogrod/estudos.git:master
+  106  git clone https://github.com/fabiogrod/estudos:master
+  107  git clone -b master https://github.com/fabiogrod/estudos.git
+  108  git clone -b master https://github.com/fabiogrod/estudos.git
+  109  git clone -b master https://github.com/fabiogrod/estudos.git /
+  110  git clone -b master https://github.com/fabiogrod/estudos.git ./
+  111  git clone -b master https://github.com/fabiogrod/estudos.git ./curso_git
+  112  git clone -b master https://github.com/fabiogrod/estudos.git ../curso_git
+  113  git clone -b master https://github.com/fabiogrod/estudos.git
+  114  mv /estudos *.* ./
+  115  git clone -b master https://github.com/fabiogrod/estudos.git ./
+  116  git clone -b master https://github.com/fabiogrod/estudos.git .
+  117  GIT FETCH
+  118  get fetch
+  119  git fetch
+  120  git checkout - t origin/master
+  121  git checkout -t origin/master
+  122  git checkout -t master
+  123  git checkout -t origin master
+  124  git checkout -b master
+  125  git checkout master
+  126  git clone -b master https://github.com/fabiogrod/estudos.git
+  127  git clone -C . master https://github.com/fabiogrod/estudos.git
+  128  git clone -C . master https://github.com/fabiogrod/estudos.git
+  129  git clone -Cb . master https://github.com/fabiogrod/estudos.git
+  130  git pull
+  131  git remote rm master
+  132  git remote rm master
+  133  history
+  134  git remote rm -b master
+  135  git remote remove master
+  136  git remote remove -b master
+  137  git checkout
+  138  git bracn -vv
+  139  git brach -vv
+  140  git branch -vv
+  141  git branch -vvse IPv6 addresses only
+  142      --filter <args>       object filtering
+  143      --remote-submodules   any cloned submodules will use their remote-tracking branch
+  144      --sparse              initialize sparse-checkout file to include only files at root
+  145  echo history
+  146  echo > history
+  147  history
+  148  history >> history.txt 
+  149  git remote rm master
+  150  git branch master
+  151  git remote remove -b master
+  152  git branch -d master
+  153  git push origin master
+  154  git push origin :master
+  155  git add pull origin main
+  156  git pull origin main
+  157  git status
+  158  git add .
+  159  git commit -m "Projeto criado"
+  160  git push -u orgigin master
+  161  git push -u origin master
+  162  git push origin :master
+  163  rm .git
+  164  rmdir .git
+  165  rmdir -f .git
+  166  rmdir --help
+  167  rmdir --help
+  168  rm -rf .git
+  169  ls
+  170  dir
+  171  git init
+  172  git config --list
+  173  git config --global user.name "fabiogrod"
+  174  git config --global user.email "fabiogrimello@gmail.com"
+  175  git remote add origin https://github.com/fabiogrod/estudos.git
+  176  git pull origin main
+  177  history >> history.txt 
+  178  git add .
+  179  git commit -m "Porjeto criado"
+  180  git push -u origin master
+  181  git pull origin master
+  182  git pull
+  183  git status
+  184  git checkout
+  185  git pull
+  186  git diff
+  187  git restore history.txt
+  188  git checkout -- .
+  189  history >> history.txt 
+  190  git checkout
+  191  git commit -m "Atualização do history"
+  192  git push
+  193  git status
+  194  git add history.txt
+  195  git commit -m "Atualização do history"
+  196  git push
+  197  git clone https://github.com/fabiogrod/estudos.git
+  198  git clone master https://github.com/fabiogrod/estudos.git
+  199  git clone -b master https://github.com/fabiogrod/estudos.git
+  200  git clone -b master https://github.com/fabiogrod/estudos.git
+  201  git clone -b master https://github.com/fabiogrod/estudos.git ../
+  202  git clone -b master https://github.com/fabiogrod/estudos.git ../estudos
+  203  git status
+  204  cd ..
+  205  ls
+  206  cd estudos
+  207  git status
+  208  git config --list
+  209  OC CLR
+  210  CLR
+  211  ASDASDM Ç\/GM\CLERARADÇLGMDF~LKHE
+  212  CLEAR
+  213  LS
+  214  EXIT
+  215  exit
+  216  git status
+  217  cd estudos
+  218  git status
+  219  git add .
+  220  git status
+  221  git commit -m "Acrescentada mensagem de tá foda"
+  222  git log oneline
+  223  git log --oneline
+  224  git push
+  225  git add .
+  226  git commit -m "Acrescentada mensagem de tá foda 2"
+  227  git add .
+  228  git commit -m "Acrescentada mensagem de tá foda 3"
+  229  git log --oneline
+  230  git push
+  231  git push
+  232  git status
+  233  git clean -df
+  234  git checkout -- .
+  235  git status
+  236  git log --oneline
+  237  git reset --soft HEAD~1
+  238  git log --oneline
+  239  git status
+  240  git commit -m "Mensagem de tá foda 3"
+  241  git log --oneline
+  242  git push
+  243  git push -f origin HEAD^:master
+  244  git push
+  245  git log --oneline
+  246  git reset --hard HEAD~1
+  247  git log --oneline
+  248  git pull origin master
+  249  git log --oneline
+  250  git checkout e6c9ad7
+  251  git log --oneline
+  252  git checkout master
+  253  git remote set-url origin https://github.com/fabiogrod/tafoda.git
+  254  git push -u origin master
+  255  git commit
+  256  git add .
+  257  git commit -u "PQP cuzão"
+  258  git commit -m "PQP cuzao"
+  259  git push
+  260  git push
+  261  history
+  262  clr
+  263  cls
+  264  clear
+  265  git init
+  266  git remote add origin https://github.com/fabiogrod/aula_141_excecao.git
+  267  git pull origin main
+  268  git remote add origin https://github.com/fabiogrod/excecao.git
+  269  git remote remove origin https://github.com/fabiogrod/aula_141_excecao.git
+  270  git remote remove origin
+  271  git remote add origin https://github.com/fabiogrod/excecao.git
+  272  git pull origin main
+  273  git status
+  274  git add .
+  275  export HISTTIMEFORMAT = '%F %T'
+  276  export HISTTIMEFORMAT='%F %T'
+  277  history
+  278  export HISTTIMEFORMAT='%F %T '
+  279  history
+  280  history | grep 2020-10-31
+  281  history
+  282  export HISTTIMEFORMAT='%F %T '
+  283  export HISTTIMEFORMAT='%F %T '
+  284  unset exsport 
+  285  unset export HISTTIMEFORMAT
+  286  history
+  287  history | grep 2020-10-31
+  288  history --help
+  289  HISTTIMEFORMAT="%d/%m/%y %T "
+  290  history
+  291  export HISTTIMEFORMAT="%d/%m/%y %T "
+  292  history
+  293  history | grep 262 26*
+  294  history | grep 26
+  295  history | grep "^26"
+  296  history | grep ^26
+  297  history | grep '^26'
+  298  history | grep '26'
+  299  history | grep '26^'
+  300  history | grep '*26'
+  301  history 262
+  302  history 40
+  303  history 42
+  304  history 44
+  305  cls
+  306  clear
+  307  history | grep global
+  308  history | grep config
+  309  history 
+  310  history >> history.txt 
+  311  ls
+  312  git status
+  313  git add .
+  314  git checkout
+  315  git commit -m "Aula 142 - Solução muito ruim + history"
+  316  history | grep origin
+  317  git push -u origin master
+  318  exit
+  319  git status
+  320  git add .
+  321  git commit -m "Segunda solução - ruim"
+  322  git push
+  323  git reset --hard HEAD~1
+  324  git status
+  325  git pull origin master
+  326  git push -f origin HEAD^:master
+  327  git checkout
+  328  git status
+  329  git add .
+  330  history
+  331  export HISTTIMEFORMAT="%d/%m/%y %T "
+  332  history
+  333  history 319
+  334  history 319
+  335  history | grep history
+  336  history 44
+  337  history | grep 01/11/2020
+  338  history
+  339  clear
+  340  history
+  341  history >> history.txt
+  342  history 22
+  343  history 25
+  344  history >> history.txt
+  345  git add .
+  346  git status
+  347  git git commit "Aula 143 - Solução ruim + history
+  348  git git commit "Aula 143 - Solução ruim + history"
+  349  git commit "Aula 143 - Solução ruim + history"
+  350  git commit -m "Aula 143 - Solução ruim + history"
+  351  git push
+  352  git commit --amend - m "Aula 143 - Segunda Aula 143 - Segunda
+  353  git commit --amend -m "Aula 143 - Solução ruim + history"
+  354  git push
+  355  git push -f origin HEAD^:master
+  356  git reset --soft HEAD~1
+  357  git status
+  358  git checkout
+  359  git push -f origin HEAD^:master
+  360  git pull
+  361  git status
+  362  history >> history.txt
+  363  git add .
+  364  git commit -m "Aula 143 - Solução ruim + history"
+  365  git push
+  366  git commit --amend -m "Aula 143 - Solução ruim + history"
+  367  git push
+  368  git pull
+  369  git pull
+  370  git commit --amend -m "Aula 143 - Solução ruim + history"
+  371  git commit -m "Aula 143 - Solução ruim + history"
+  372  git push
+  373  git checkout
+  374  git init
+  375  git add remote origin https://github.com/fabiogrod/excessao.git
+  376  git remote add origin https://github.com/fabiogrod/excessao.git
+  377  git pull origin master
+  378  git pull origin mIN
+  379  git pull origin main
+  380  git config --list
+  381  git remote add origin https://github.com/fabiogrod/excessao.git
+  382  git pull origin
+  383  git pull origin main
+  384  git pull origin master
+  385  git status
+  386  git status
+  387  git add .
+  388  git commit -m "Aula 142 - Solução muito ruim + history"
+  389  git push origin master
+  390  git status
+  391  git commit -m "Aula 143 - Solução ruim + history"
+  392  git add .
+  393  git commit -m "Aula 143 - Solução ruim + history"
+  394  git push
+  395   git push --set-upstream origin master
+  396  git add.
+  397  git add .
+  398  history >> history.txt 
