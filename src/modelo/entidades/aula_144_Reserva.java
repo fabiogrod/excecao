@@ -4,7 +4,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.concurrent.TimeUnit;
 
-import modelo.excessoes.aula_144_ExcesaoDominio;
+import modelo.excecoes.aula_144_ExcecaoDominio;
 
 public class aula_144_Reserva
 {	
@@ -20,7 +20,7 @@ public class aula_144_Reserva
 	{	
 		if (!saida.after(entrada) )
 		{
-			throw new aula_144_ExcesaoDominio("\nErro na reserva: Data de saida deve ser posterior a data de entrada!");
+			throw new aula_144_ExcecaoDominio("\nErro na reserva: Data de saida deve ser posterior a data de entrada!");
 		}
 			
 		this.numeroQuarto = numeroQuarto;
@@ -57,12 +57,12 @@ public class aula_144_Reserva
 		
 		if (entrada.before(dataAtual) || saida.before(dataAtual))
 		{
-			throw new aula_144_ExcesaoDominio("\nErro na reserva: Datas para atualizar a reserva devem ser posteriores a data atual!");	
+			throw new aula_144_ExcecaoDominio("\nErro na reserva: Datas para atualizar a reserva devem ser posteriores a data atual!");	
 		}
 		
 		if (!saida.after(entrada) )
 		{
-			throw new aula_144_ExcesaoDominio("\nErro na reserva: Data de saida deve ser posterior a data de entrada!");			
+			throw new aula_144_ExcecaoDominio("\nErro na reserva: Data de saida deve ser posterior a data de entrada!");			
 		}		
 		
 		this.entrada = entrada;

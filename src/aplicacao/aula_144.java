@@ -7,7 +7,7 @@ import java.util.Locale;
 import java.util.Scanner;
 
 import modelo.entidades.aula_144_Reserva;
-import modelo.excessoes.aula_144_ExcesaoDominio;
+import modelo.excecoes.aula_144_ExcecaoDominio;
 
 public class aula_144
 {
@@ -47,7 +47,7 @@ public class aula_144
 		{
 			System.out.println("Data inválida");
 		}
-		catch (aula_144_ExcesaoDominio e)
+		catch (aula_144_ExcecaoDominio e)
 		{
 			System.out.println("Data inválida" + e.getMessage() );
 		}
